@@ -2,12 +2,5 @@
 # fun: __init__(): dunder method || constractor method
 
 class Member:
-   def __init__(self):
-       print("GG")
-       pass
-   
-member = Member()
-Member()
-Member()
-
-print(member)
+   def __init__(self, first_name, last_name=""):
+      pass
